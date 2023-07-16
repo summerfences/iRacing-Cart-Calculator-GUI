@@ -1,3 +1,7 @@
+/* This class performs all computations, calculating
+the price of each individual item type as well as 
+adding these individual totals into a total variable
+to be output by the CalculatorGUI. */
 public class PriceCalculator {
     int tracks1495, tracks1195, cars, combinedQty, legacyCars, legacyTracks;
     double total, totalCopy;
