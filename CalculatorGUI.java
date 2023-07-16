@@ -5,6 +5,8 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+/* This class contains the functionality for the Swing GUI itself,
+with the actionListener on the button being defined as well. */
 public class CalculatorGUI extends JFrame implements ActionListener {
     private JFrame guiFrame;
     private JPanel guiPanel;
