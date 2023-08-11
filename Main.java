@@ -2,7 +2,7 @@
 Java program written with a Swing GUI that allows the
 user to calculate the cost of an iRacing cart. Currently,
 only USD is supported, and no support for tax is included.
-https://github.com/summerfences 7/6/23 v0.1
+Written by Frank T Passantino: v1.1, 8/10/2023
  */
 public class Main {
     public static void main(String[] args) {
@@ -10,3 +10,5 @@ public class Main {
         gui.build();
     }
 }
+
+// TODO: add tax functionality, EUR/CAD support
